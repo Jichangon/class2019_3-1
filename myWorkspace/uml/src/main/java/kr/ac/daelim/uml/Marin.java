@@ -1,6 +1,6 @@
 package kr.ac.daelim.uml;
 
-public class Marin {
+public class Marin extends Unit{
 
 	public String name;
 	public int health;
