@@ -11027,9 +11027,9 @@
 										"$ref": "AAAAAAFt/EqhCtuz5IM="
 									},
 									"font": "Arial;13;0",
-									"left": 863,
+									"left": 832,
 									"top": 764,
-									"width": 52,
+									"width": 114.83544921875,
 									"height": 13,
 									"alpha": 1.5707963267948966,
 									"distance": 15,
@@ -11037,7 +11037,7 @@
 										"$ref": "AAAAAAFt/EqhCtu0SjA="
 									},
 									"edgePosition": 1,
-									"text": "전기입력"
+									"text": "가스입력 / 전기입력"
 								},
 								{
 									"_type": "EdgeLabelView",
@@ -11122,9 +11122,9 @@
 										"$ref": "AAAAAAFt/EsJBtvJDxw="
 									},
 									"font": "Arial;13;0",
-									"left": 900,
-									"top": 750,
-									"width": 101.83544921875,
+									"left": 901,
+									"top": 740,
+									"width": 114.83544921875,
 									"height": 13,
 									"alpha": 1.5707963267948966,
 									"distance": 15,
@@ -11132,7 +11132,7 @@
 										"$ref": "AAAAAAFt/EsJBtvKNew="
 									},
 									"edgePosition": 1,
-									"text": "전기차단 / 물뭍음"
+									"text": "전기차단 / 가스차단"
 								},
 								{
 									"_type": "EdgeLabelView",
@@ -11145,8 +11145,8 @@
 									},
 									"visible": null,
 									"font": "Arial;13;0",
-									"left": 965,
-									"top": 752,
+									"left": 973,
+									"top": 743,
 									"height": 13,
 									"alpha": 1.5707963267948966,
 									"distance": 30,
@@ -11166,8 +11166,8 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": 921,
-									"top": 747,
+									"left": 929,
+									"top": 735,
 									"height": 13,
 									"alpha": -1.5707963267948966,
 									"distance": 15,
@@ -11185,7 +11185,7 @@
 								"$ref": "AAAAAAFt/EpEG9uEY0U="
 							},
 							"lineStyle": 1,
-							"points": "929:731;936:755;928:815",
+							"points": "938:731;944:744;930:815",
 							"showVisibility": true,
 							"nameLabel": {
 								"$ref": "AAAAAAFt/EsJBtvLiHo="
@@ -11799,6 +11799,16 @@
 									"_parent": {
 										"$ref": "AAAAAAFt/EqhCtuz5IM="
 									},
+									"name": "가스입력"
+								}
+							],
+							"effects": [
+								{
+									"_type": "UMLOpaqueBehavior",
+									"_id": "AAAAAAFt/E1nbdvmdI0=",
+									"_parent": {
+										"$ref": "AAAAAAFt/EqhCtuz5IM="
+									},
 									"name": "전기입력"
 								}
 							]
@@ -11832,7 +11842,7 @@
 									"_parent": {
 										"$ref": "AAAAAAFt/EsJBtvJDxw="
 									},
-									"name": "물뭍음"
+									"name": "가스차단"
 								}
 							]
 						}
